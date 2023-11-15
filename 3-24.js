@@ -17,8 +17,10 @@ function userBuilder(name, age) {
 
 let userCreator1 = userBuilder("Yana", 25);
 let userCreator2 = userBuilder("Alex");
-let userCreator3 = userBuilder();
+let userCreator3 = userBuilder("", 25);
+let userCreator4 = userBuilder();
 
-console.log(userCreator1);
-console.log(userCreator2);
-console.log(userCreator3);
+console.log(userCreator1());
+console.log(userCreator2());
+console.log(userCreator3());
+console.log(userCreator4());
